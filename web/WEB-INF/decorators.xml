@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir = "/WEB-INF/decorators">
+
+    <excludes>
+        <pattern>/login</pattern>
+        <pattern>/error-403</pattern>
+        <pattern>/loginForward</pattern>
+    </excludes>
+
+
+    <decorator page = "default.jsp" name = "web">
+        <pattern>/*</pattern>
+    </decorator>
+
+</decorators>
